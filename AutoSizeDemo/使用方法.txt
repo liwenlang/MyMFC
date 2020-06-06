@@ -1,0 +1,2 @@
+1.在OnSize中处理百分比调整，(int x, int y) 宽高
+2.在OnSizing中做容错， （rect) 四个点
