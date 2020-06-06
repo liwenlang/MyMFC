@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoSizeDemo", "AutoSizeDemo.vcproj", "{FD80E06C-4723-4214-987A-327DA53D8616}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD80E06C-4723-4214-987A-327DA53D8616}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD80E06C-4723-4214-987A-327DA53D8616}.Debug|Win32.Build.0 = Debug|Win32
+		{FD80E06C-4723-4214-987A-327DA53D8616}.Release|Win32.ActiveCfg = Release|Win32
+		{FD80E06C-4723-4214-987A-327DA53D8616}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

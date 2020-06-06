@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AutoSizeDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/AutoSizeDemo.res" /d "_DEBUG" /d "_AFXDLL" "E:\Works\AutoSizeDemo\AutoSizeDemo.rc"" 
+Creating temporary file "C:\DOCUME~1\xli\LOCALS~1\Temp\RSP323.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/AutoSizeDemo.pdb" /debug /machine:I386 /out:"Debug/AutoSizeDemo.exe" /pdbtype:sept 
+.\Debug\AutoSizeDemo.obj
+.\Debug\AutoSizeDemoDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\AutoSizeDemo.res
+.\Debug\lxDialog.obj
+.\Debug\AutoSizeDlg.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\xli\LOCALS~1\Temp\RSP323.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+AutoSizeDemo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
