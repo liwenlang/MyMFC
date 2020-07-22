@@ -1,3 +1,4 @@
+*.h linguist-language=C
 *.cpp linguist-language=C++ 
-*.cpp linguist-language=MFC
-*.cpp linguist-language=C
+*.vcproj linguist-language=MFC
+
