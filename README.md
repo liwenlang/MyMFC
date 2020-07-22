@@ -1,5 +1,6 @@
 # MyMFC
-编程总结
+AutoSizeDemo 控件自动调整大小
 
+MyTiming 函数计时
 
-test
+MyTreeCombo 实现下拉勾选组合框
