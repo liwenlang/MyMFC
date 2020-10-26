@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SQLiteCtrl">
+      <UniqueIdentifier>{b421f494-7761-4358-bdbf-c4255a8c364d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{98e9c25d-1c0d-428e-bfa2-afdd7e52b39a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COXParser">
+      <UniqueIdentifier>{eb570c5f-4b7c-48fb-865b-4593baf10193}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="DataSet.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\DataSet.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="AutoCopyFile.bat">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteCtrl\sqlite3.c">
+      <Filter>SQLiteCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteCtrl\SqliteDBBase.cpp">
+      <Filter>SQLiteCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CDataSet_StringBuilder.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CPub_mem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NBlobField.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NCGroup.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NDataField.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NDataFields.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NDataModelBase.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NDataModelBaseDataSet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NDataModelDataSet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NDataModelDataSet_Clone.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NDataModelDataSet_ShareData.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NDataModelDataSetBuffer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NDateTimeField.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NDbDataSet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NFloatField.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NGuidField.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NIntegerField.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NNumericField.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NObserver.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NStringField.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PM_LargeFileDataSet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PM_LinkDataSet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PM_SharebufferDataSet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PM_StorageDataSet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PM_TranStringDataSet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PMSQLBaseCtrl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SQLDataSet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PMSharePtr.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\COXParser\OXHashTable.cpp">
+      <Filter>COXParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\COXParser\OXParser.cpp">
+      <Filter>COXParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\COXParser\OXQuickString.cpp">
+      <Filter>COXParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\COXParser\UGStrOp.cpp">
+      <Filter>COXParser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCtrl\sqlite3.h">
+      <Filter>SQLiteCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCtrl\SqliteDBBase.h">
+      <Filter>SQLiteCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSetH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CDataSet_StringBuilder.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CPub.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NBlobField.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NCGroup.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NDataField.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NDataFields.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NDataModelBase.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NDataModelBaseDataSet.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NDataModelDataSet.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NDataModelDataSet_Clone.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NDataModelDataSet_ShareData.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NDataModelDataSetBuffer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NDateTimeField.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NDbDataSet.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NFloatField.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NGuidField.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NIntegerField.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NNumericField.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NObserver.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NStringField.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PM_LargeFileDataSet.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PM_LinkDataSet.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PM_SharebufferDataSet.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PM_StorageDataSet.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PM_TranStringDataSet.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PMSQLBaseCtrl.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SQLDataSet.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PMSharePtr.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\COXParser\OXDllExt.h">
+      <Filter>COXParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\COXParser\OXHashTable.h">
+      <Filter>COXParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\COXParser\OXParser.h">
+      <Filter>COXParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\COXParser\OXQuickString.h">
+      <Filter>COXParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\COXParser\ugstrop.h">
+      <Filter>COXParser</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DataSet.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

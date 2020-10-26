@@ -1,0 +1,10 @@
+﻿// Common.idl: Common.dll 的类型库源
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(Common.tlb)。
+
+[ uuid(bdcdf764-b95e-456b-8cde-2e3bbd00f574), version(1.0) ]
+library Common
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
