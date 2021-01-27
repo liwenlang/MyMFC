@@ -1,8 +1,10 @@
 # MyMFC
-AutoSizeDemo 控件自动调整大小
+### AutoSizeDemo 控件自动调整大小
 
-MySolution 数据库sqlite 导入excel 工具
+### MySolution 数据库sqlite 导入excel 工具
 
-MyTiming 函数计时
+### MyTiming 函数计时
 
-MyTreeCombo 实现下拉勾选组合框
+### MyTreeCombo 实现下拉勾选组合框
+
+### Demo MFC机制原理分析
